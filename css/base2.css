@@ -1,0 +1,153 @@
+/* reset */
+* {
+	margin: 0px;
+	padding: 0px;
+	/* 点击高亮 */
+	-webkit-tap-highlight-color:transparent;
+
+	/* 设置盒子的*/
+	-webkit-box-sizing: border-box;
+	box-sizing:border-box;
+}
+body {
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #333;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	color:#333;
+}
+ol,ul {
+	list-style: none;
+}
+input {
+	-webkit-appearance:none;
+	border: 0  none;
+	outline: 0 none;
+}
+
+
+/* comman */
+ .f_left {
+ 	float: left;
+ }
+ .f_right {
+ 	float: right;
+ }
+.clearfix::after,
+.clearfix::before{
+    content: ".";
+    line-height: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+ [class^="icon_"] {
+ 	background: url(../images/sprites.png) no-repeat ;
+ 	background-size: 200px 200px;
+ }
+
+ 
+ /*头部*/
+.jd_topBar {
+	height: 45px;
+	width: 100%;
+	background: url(../images/header-bg.png) repeat-x;
+	background-size: 1px 44px;
+	border-bottom: 1px solid #e0e0e0;
+	position: absolute;
+}
+.jd_topBar > a {
+   width: 40px;
+   height: 44px;
+   position: absolute;
+   top: 0px;
+   padding: 12px 10px;
+     /*为了控制背景的位置*/
+   background-origin: content-box;
+   background-clip: content-box;
+}
+.jd_topBar > .icon_back {
+   background-position: -20px 0;
+   left: 0px;
+}
+
+.jd_topBar > .icon_menu {
+   background-position: -60px 0;
+   right: 0px;
+}
+.jd_topBar > form{
+   width: 100%;
+   padding: 0 40px;
+}
+.jd_topBar > form > input{
+	width: 100%;
+	height: 30px;
+	padding: 0 10px;
+	margin-top: 7px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+}
+.jd_topBar > h3 {
+	text-align: center;
+	line-height: 45px;
+}
+
+/* 底部结算等部分 s */
+.jd_bottom {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+	background-color: #fff;
+}
+.bottom_all {
+	display: inline-block;
+	height: 50px;
+	width: 73%;
+	text-align: center;
+	line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bottom_pay {
+	display: inline-block;
+	height: 50px;
+	width: 25%;
+	background-color: red;
+    background: #f23030;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 底部结算等部分 e */
+
+/* 商品详细信息部分 s */
+
+.product_tit {
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.product_tit > p {
+  display: inline-block;
+  height: 44px;
+  width: 30%;
+  text-align: center;
+  line-height: 44px;
+}
+.product_tit .actPro {
+
+  border-bottom: 2px solid #222;
+}
+
+/* 商品详细信息部分 e */

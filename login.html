@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <title>登陆</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+    <header class="jd_topBar">
+
+        <a href="#" class="icon_back"></a>
+
+        <h2>尚街登陆</h2>
+    </header>
+
+
+    <div class="common-wrapper">
+        <div class="main">
+            <div class="item item-tips" style="display:none;">
+                <div class="err-msg"></div>
+            </div>
+            <div class="item item-username">
+                <input class="txt-input txt-username J_ping" type="text" placeholder="请输入用户名/邮箱/已验证手机">
+            </div>
+            <div class="item item-password">
+                <input class="txt-input txt-password J_ping" type="password" autocomplete="off" placeholder="请输入密码">
+                <b class="tp-btn btn-off J_ping"></b>
+            </div>
+            <div class="item item-captcha">
+                <div class="input-info" style="display:block;">
+                    <input class="txt-input txt-captcha" id="checkMa"  autocomplete="off" placeholder="请输入验证码">
+                    <span id="captcha-img" class="register_check">
+                        <!--<img src="./image2/code1.jpg" width="63" height="25" alt="">-->
+                        <span class="register_check1">D</span>
+		        	    <span class="register_check2">4</span>
+                        <span class="register_check3">G</span>
+		        	    <span class="register_check4">9</span>
+                    </span>
+                </div>
+                <div class="login-free login-free-selected J_ping"><b></b>一个月内免登录</div>
+            </div>
+            <div class="item item-btns">
+                <a class="btn-login btn-disabled J_ping" href="javascript:;">登录</a>
+            </div>
+            <div class="item item-login-option">
+                <span class="register-free">
+                     <a href="./register.html" class="J_ping quickReg">快速注册</a>
+                </span>
+                <span class="retrieve-password">
+                    <a href="javascript:;" class="findPwd J_ping">找回密码</a>
+                </span>
+            </div>
+            <div class="item item-login-other">
+                <dl>
+                    <dt>其它登录方式</dt>
+                    <dd>
+                        <a href="javascript:;" class="qq J_ping" report-eventid="MLoginRegister_QQLogin"><span>QQ</span></a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

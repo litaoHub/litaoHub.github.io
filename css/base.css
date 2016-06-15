@@ -1,0 +1,129 @@
+/*reset css*/
+
+
+*,
+::after,
+::before{
+
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+    -webkit-tap-highlight-color: transparent;
+
+
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft-yahei","sans-serif";
+    color: #333;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #333;
+}
+
+input {
+    border: none;
+    outline: none;
+
+    -webkit-appearance: none;
+}
+
+
+/*common css*/
+
+
+.f_right {
+    float: right;
+}
+.f_left {
+    float: left;
+}
+
+.clearfix::after,
+.clearfix::before {
+
+    content: '.';
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+
+}
+
+[class ^= "icon_"] {
+
+    background:url("../images/sprites.png") no-repeat;
+
+    background-size:200px,200px;
+}
+
+
+
+.jd_topBar{
+    height: 45px;
+    border-bottom: 1px solid #e0e0e0;
+    background: url("../images/header-bg.png") repeat-x;
+    background-size: 1px 44px;
+    position: absolute;
+    width: 100%;
+}
+.jd_topBar > a{
+    width: 40px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    padding: 12px 10px;
+    /*背景的定位从什么位子开始*/
+    background-origin: content-box;
+    /*背景从什么位子开始显示*/
+    background-clip: content-box;
+}
+.jd_topBar > .icon_back{
+    left: 0;
+    background-position: -20px 0;
+}
+.jd_topBar > .icon_menu{
+    right: 0;
+    background-position: -60px 0;
+}
+.jd_topBar > form{
+    width: 100%;
+    padding:0 40px;
+}
+.jd_topBar > form > input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-top: 7px;
+    padding: 0 10px;
+}
+
+.jd_topBar > h3 {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding:0 40px;
+    font-size: 16px;
+    /*color: #e0e0e0;*/
+    text-align: center;
+
+}

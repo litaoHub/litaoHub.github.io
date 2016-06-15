@@ -1,17 +1,442 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>second test</title>
-	<style>
-		div {
-			width: 200px;
-			height:200px;
-			background-color: red;
-		}
-	</style>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <title></title>
+
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="./js/underscore/template-native.js"></script>
+    <script src="./js/underscore/underscore-min.js"></script>
+    <script src="./js/jquery.min.js"></script>
 </head>
 <body>
-	 <div style="width: 300px ;background-color:green">XXX</div>
+    <div class="jd_layout">
+        <!--头部-->
+            <header class="jd_header">
+                
+                <div class="jd_header_box">
+                    <!--<a href="#" class = "icon_logo"></a>-->
+                    <a href="#" class = "logo">尚街</a>
+                    <!--在移动端点击弹出输入法，enter建会显示搜索-->
+                    <form action="#">
+                        <span class="icon_search"></span>
+                        <input type="search" placeholder="提示"/>
+                    </form>
+
+                    <a href="./login.html" class="login">登陆</a>
+                </div>
+            </header>
+        <!--头部结束-->
+        
+        
+            <div class="jd_banner">
+                <ul class="clearfix" id="nav_ul">
+                </ul>
+                <ul>
+                    <li class="now"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <nav class="jd_nav">
+                <ul class="clearfix">
+                    <li><a href=""><img src="./images/nav0.png" alt=""/><p>分类查询</p></a></li>
+                    <li><a href=""><img src="./images/nav1.png" alt=""/><p>物流查询</p></a></li>
+                    <li><a href=""><img src="./images/nav2.png" alt=""/><p>购物车</p></a></li>
+                    <li><a href=""><img src="./images/nav3.png" alt=""/><p>用户中心</p></a></li>
+                    <li><a href=""><img src="./images/nav4.png" alt=""/><p>点击查询</p></a></li>
+                    <li><a href=""><img src="./images/nav5.png" alt=""/><p>点击查询</p></a></li>
+                    <li><a href=""><img src="./images/nav6.png" alt=""/><p>点击查询</p></a></li>
+                    <li><a href=""><img src="./images/nav7.png" alt=""/><p>点击查询</p></a></li>
+                </ul>
+            </nav>
+
+        <!--奖券环节-->
+        <div class="container-col01  padding-x   margin-y  ">
+                <ul class="new-slide">
+                    <li  class="slide-li">
+                        <a class="J_ping"  href="#">
+                            <img  class="jq" alt="" src="./images/jiangquan.jpg">
+                        </a>
+                    </li>
+                </ul>
+            <!--<div class="focus-btn" style="display: none;"><span class="active" data-ol-btn="btn"></span></div>-->
+        </div>
+        <!--奖券环节 结束-->
+
+
+
+        <main class="jd_main">
+
+                <section class="jd_product">
+                    <div class="jd_product_tit no_border">
+                        <div class="f_left">
+                            <span class="sk_icon"></span>
+                            <span class="sk_name">掌上秒杀</span>
+                            <div class="sk_time">
+                                <span>0</span>
+                                <span>0</span>
+                                <span>:</span>
+                                <span>0</span>
+                                <span>0</span>
+                                <span>:</span>
+                                <span>0</span>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div class="f_right">
+                            <a class="sk_more" href="#">更多></a>
+                        </div>
+                    </div>
+                    <div class="jd_product_con">
+                        <ul class="sk_product clearfix">
+                            <li>
+                                <a>
+                                    <img src="./images/detail01.jpg" alt=""/>
+                                </a>
+                                <p class="price"> &yen; 10.00</p>
+                                <p class="price">&yen;10.00</p>
+                            </li>
+                            <li>
+                                <a href="./product.html">
+                                    <img src="./images/detail02.jpg" alt=""/>
+                                </a>
+                                <p class="price">&yen; 10.00</p>
+                                <p class="price">&yen; 10.00</p>
+                            </li>
+                            <li>
+                                <a>
+                                    <img src="./images/detail01.jpg" alt=""/>
+                                </a>
+                                <p class="price">&yen; 10.00</p>
+                                <p class="price">&yen; 10.00</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <section class="jd_product">
+                    <div class="jd_product_tit ">
+                        <h3>尚街超市</h3>
+                    </div>
+                    <div class="jd_product_con clearfix">
+                        <a class="w_50 f_left b_right" href="#"><img src="images/cp1.jpg" alt=""/></a>
+                        <a class="w_50 f_right b_bottom" href="#"><img src="images/cp2.jpg" alt=""/></a>
+                        <a class="w_50 f_right" href="#"><img src="images/cp3.jpg" alt=""/></a>
+                    </div>
+                </section>
+
+
+
+                <section class="jd_product">
+                    <div class="jd_product_tit ">
+                        <h3>尚街超市</h3>
+                    </div>
+                    <div class="jd_product_con clearfix">
+                        <a class="w_50 f_right b_left b_bottom" href="#"><img src="images/cp4.jpg" alt=""/></a>
+                        <a class="w_50  f_left b_bottom" href="#"><img src="images/cp6.jpg" alt=""/></a>
+                        <a class="w_50 f_left " href="#"><img src="images/cp5.jpg" alt=""/></a>
+                    </div>
+                </section>
+
+                <!--后来加入部分-->
+
+
+                <div class="jd_banner margin-y" id="jd_banner1">
+                    <ul class="clearfix">
+                        <li class="slide-li active"><a href="#"><img src="./images/ts-lun1.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/ts-lun2.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/ts-lun1.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/ts-lun2.jpg" alt=""/></a></li>
+                    </ul>
+                    <ul>
+                        <li class="now"></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="floor">
+                    <div class="floor-title">
+                        <div class="floor-title-container font-col-hybrid   bdr-bottom ">
+                            <span>特色市场</span>
+                            <div class="title-more-link">
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="floor-container   bdr-bottom">
+                        <div class="floor-item">
+                            <div class="container-col02 bdr-r">
+                                <a  href="#" class="J_ping">
+                                    <img src="./images/ts-1.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col02">
+                                <div class="container-col01 bdr-bottom">
+                                    <a href="#" class="J_ping">
+                                        <img src="./images/ts-2.jpg">
+                                    </a>
+                                </div>
+                                <div class="container-col01">
+                                    <a href="#" class="J_ping">
+                                        <img src="./images/ts-3.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor-container  bdr-bottom  ">
+                        <div class="floor-item">
+                            <div class="container-col02    bdr-r ">
+                                <a href="#" class="J_ping">
+                                    <img src="./images/ts-4.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col02   ">
+                                <a href="#" class="J_ping">
+                                    <img src="./images/ts-5.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jd_banner margin-y" id="jd_banner2">
+                    <ul class="clearfix">
+                        <li class="slide-li active"><a href="#"><img src="./images/zt-lun1.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/zt-lun2.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/zt-lun1.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/zt-lun2.jpg" alt=""/></a></li>
+                    </ul>
+                    <ul>
+                        <li class="now"></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+
+                <div class="floor">
+                    <div class="floor-title">
+                        <div class="floor-title-container font-col-hybrid   bdr-bottom ">
+                            <span>主题街</span>
+                            <div class="title-more-link"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="floor-container  bdr-bottom ">
+                        <div class="floor-item floor-level">
+                            <div class="container-col02 bdr-r">
+                                <a class="J_ping" href="#">
+                                    <img src="./images/zt-1.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col02">
+                                <div class="container-col01 bdr-bottom">
+                                    <a  class="J_ping">
+                                        <img src="./images/zt-2.jpg">
+                                    </a>
+                                </div>
+                                <div class="container-col01">
+                                    <div class="container-col02 bdr-r">
+                                        <a  class="J_ping">
+                                            <img src="./images/zt-3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="container-col02">
+                                        <a  href="#" class="J_ping">
+                                            <img src="./images/zt-44.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor-container    bdr-bottom ">
+                        <div class="floor-item">
+                            <div class="container-col04   bdr-r  ">
+                                <a  href="#" class="J_ping">
+                                    <img src="./images/zt-4.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col04   bdr-r  ">
+                                <a   href="#" class="J_ping">
+                                    <img src="./images/zt-5.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col04   bdr-r  ">
+                                <a href="#" class="J_ping">
+                                    <img src="./images/zt-6.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col04   ">
+                                <a  href="#" class="J_ping">
+                                    <img src="./images/zt-7.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor-container    bdr-bottom ">
+                        <div class="floor-item">
+                            <div class="container-col04   bdr-r  ">
+                                <a href="#" class="J_ping">
+                                    <img src="./images/zt-8.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col04   bdr-r  ">
+                                <a href="#" class="J_ping">
+                                    <img src="./images/zt-9.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col04   bdr-r  ">
+                                <a href="#" class="J_ping">
+                                    <img src="./images/zt-10.jpg">
+                                </a>
+                            </div>
+                            <div class="container-col04   ">
+                                <a href="#" class="J_ping">
+                                    <img src="./images/zt-11.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--后来加入部分结束-->
+
+            </main>
+
+
+        <!--底部-->
+
+
+
+        <!--动态加载的内容-->
+
+        <div id="recommend" class="floor love-floor clearfix" style="display: none">
+            <h2 style="padding-bottom: 0px;" class="love-floor-title login-before">猜你喜欢
+            </h2>
+            <ul class="love-list" id="recommendList">
+
+            </ul>
+        </div>
+        <!--动态加载的内容结束-->
+
+
+
+
+        <!--动态加载-->
+
+        <div style="display: block;" id="recommendListLoadMoreBtn" class="click-loading">
+            <a href="javascript:void(0);" id="uploadpro">点击继续加载</a>
+        </div>
+
+        <!--动态加载结束-->
+
+        <div id="m_common_bottom" style="min-height:170px;">
+            <footer id="m_common_bottom_jd_footer" class="jd-footer">
+                <div class="jd-1px-line-up"></div>
+                <ul class="jd-footer-links">
+                    <li class=""><a class="J_ping"  href="#">李大耳朵</a></li>
+                    <li><a class="J_ping" href="#">退出</a></li>
+                    <li><a class="J_ping" href="#">反馈</a></li>
+                    <li><a class="J_ping" href="#top">回到顶部</a></li>
+                </ul>
+                <div class="jd-1px-line-up"></div>
+                <ul class="jd-footer-platforms">
+                    <li id="m_common_bottom_apps" class="jd-footer-icon-apps J_ping"> <a class="J_ping  icon_app">客户端</a></li>
+                    <li id="m_common_bottom_touchscreen" class="jd-footer-icon-touchscreen current"><a class="J_ping icon_phone">触屏版</a></li>
+                    <li id="m_common_bottom_pc" class="jd-footer-icon-pc"><a class="J_ping icon_pc" >电脑版</a></li>
+                </ul>
+                <div class="jd-1px-line-up"></div>
+                <div class="jd-footer-copyright">Copyright © 2004-2016 京东JD.com 版权所有 </div>
+            </footer></div>
+
+        <!--底部结束-->
+
+
+        <!--底部nav-->
+
+        <div class="floor bottom-bar-pannel">
+            <div class="floor-container ">
+                <ul class="tab4">
+                    <li>
+                        <span class="bar-img">
+                            <a class="J_ping" href="javascript:void(0)">
+                                <img src="./images/dibu1.png">
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="bar-img">
+                            <a class="J_ping"  href="./cart.html">
+                                <img src="./images/dibu2.png">
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="bar-img">
+                            <a class="J_ping"  href="./myJd.html">
+                                <img src="./images/dibu3.png">
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="bar-img">
+                            <a class="J_ping" href="./category.html">
+                                <img src="./images/dibu4.png">
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--底部nav结束-->
+
+
+
+
+
+    </div>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/index2.js"></script>
+
+
+
+    <script type="text/template" id="tpl">
+        <% for(var k in opts) { %>
+            <li><a href="#">
+                <img src="<%= opts[k] %>" alt=""/>
+            </a></li>
+        <% } %>
+    </script>
+
+
+    <script type="text/template" id="upload">
+        <%_.each(model.upload,function(item,i){%>
+            <li class="love-item"><a href="#">
+                <img src="<%=item.img%>" alt="" style="width: 166.5px; height: 166.5px;"/>
+                <div class="love-item-title"><span><%=item.des%></span></div>
+            </a>
+                <div class="love-item-bottom">
+                    <span class="love-item-price">￥<i><%=item.price%></i></span>
+                    <a class="J_ping" href="#"><span class="love-item-icon"><%=item.kxs%></span></a>
+                </div>
+            </li>
+        <%});%>
+
+    </script>
+
 </body>
 </html>

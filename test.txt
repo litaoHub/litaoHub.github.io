@@ -1,0 +1,25 @@
+ <div id="recommend" class="floor love-floor clearfix" style="display: block">
+            <h2 style="padding-bottom: 0px;" class="love-floor-title login-before">猜你喜欢
+            </h2>
+            <ul class="love-list" id="recommendList">
+                <li class="love-item"><a href="#">
+                    <img src="./upload/jiazai2.jpg" alt="" style="width: 166.5px; height: 166.5px;"/>
+                    <div class="love-item-title"><span>和情缤咖时焦糖饼干 312.5g(50片）</span></div>
+                </a>
+                <div class="love-item-bottom">
+                    <span class="love-item-price">￥<i>20.00</i></span>
+                    <a class="J_ping" href="#"><span class="love-item-icon">看相似</span></a>
+                </div>
+                </li>
+                <li class="love-item"><a href="#">
+                    <img src="./upload/jiazai1.jpg" alt=""  style="width: 166.5px; height: 166.5px;"/>
+                    <div class="love-item-title"><span>和情缤咖时焦糖饼干 312.5g(50片）</span></div>
+                </a>
+                <div class="love-item-bottom">
+                    <span class="love-item-price">￥<i>20.00</i></span>
+                    <a class="J_ping" href="#"><span class="love-item-icon">看相似</span></a>
+                </div>
+                </li>
+
+            </ul>
+        </div>

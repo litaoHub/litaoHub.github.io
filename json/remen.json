@@ -1,0 +1,38 @@
+{
+  "title":"热门推荐",
+  "category_product":[
+    {
+      "img":"remen/1.jpg",
+      "des":"手机"
+    },
+
+    {
+      "img":"remen/2.jpg",
+      "des":"电脑"
+    },
+
+    {
+      "img":"remen/3.jpg",
+      "des":"空调"
+    },
+
+    {
+      "img":"remen/4.jpg",
+      "des":"箱子"
+    },
+
+    {
+      "img":"remen/5.jpg",
+      "des":"高压锅"
+    } ,
+    {
+      "img":"remen/6.jpg",
+      "des":"安利"
+    },
+    {
+      "img":"remen/7.jpg",
+      "des":"灯饰"
+    }
+  ]
+
+}

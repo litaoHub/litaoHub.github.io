@@ -1,0 +1,59 @@
+{
+  "titleimg":"images/banner_1.jpg",
+  "title":"非热门精选",
+  "category_product":[
+    {
+      "img":"nvzhuang/1.jpg",
+      "des":"连衣裙"
+    },
+
+    {
+      "img":"nvzhuang/2.jpg",
+      "des":"连衣裙"
+    },
+
+    {
+      "img":"nvzhuang/3.jpg",
+      "des":"连衣裙"
+    },
+
+    {
+      "img":"nvzhuang/4.jpg",
+      "des":"连衣裙"
+    },
+
+    {
+      "img":"nvzhuang/5.jpg",
+      "des":"连衣裙"
+    } ,
+    {
+      "img":"nvzhuang/a.jpg",
+      "des":"连衣裙"
+    } ,
+    {
+      "img":"nvzhuang/b.jpg",
+      "des":"连衣裙"
+    },
+    {
+      "img":"nvzhuang/c.jpg",
+      "des":"连衣裙"
+    } ,
+    {
+      "img":"nvzhuang/d.jpg",
+      "des":"连衣裙"
+    } ,
+    {
+      "img":"nvzhuang/a1.jpg",
+      "des":"连衣裙"
+    } ,
+    {
+      "img":"nvzhuang/a2.jpg",
+      "des":"连衣裙"
+    } ,
+    {
+      "img":"nvzhuang/a3.jpg",
+      "des":"连衣裙"
+    }
+  ]
+
+}

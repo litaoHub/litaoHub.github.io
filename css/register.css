@@ -1,0 +1,52 @@
+
+
+ /* 一些公共样式 */
+  body {
+  	background-color: #f8f8f8;
+  }
+  input {
+	border-radius: 4px;
+	font-size: 16px;
+    color: #252525;
+	font-family: "microsoft yahei";
+  }
+/* 表单部分 s*/
+.register_layout {
+   width: 100%;
+   padding: 10px;
+}
+
+.register_form_wrap {
+	padding-top: 50px;
+}
+.register_form > input {
+	height: 44px;
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	border: 1px solid #d7d7d7;
+	padding-left: 10px;
+}
+.register_form_subm > input {
+	height: 40px;
+	width: 100%;
+	display: block;
+}
+.register_form_chec {
+	position:relative;
+}
+.register_check {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-left: 1px solid #d7d7d7;
+	padding-left: 15px;
+}
+
+/* 表单部分 e*/
+
+/* 下面部分 s */
+.register_bottom {
+	margin-top: 10px;
+}
+/* 下面部分 e */

@@ -1,0 +1,45 @@
+{
+  "titleimg":"huazhuang/huatitle.jpg",
+  "title":"面部护肤",
+  "category_product":[
+    {
+      "img":"huazhuang/1.jpg",
+      "des":"洗面奶"
+    },
+
+    {
+      "img":"huazhuang/2.jpg",
+      "des":"洗面奶"
+    },
+
+    {
+      "img":"huazhuang/3.jpg",
+      "des":"洗面奶"
+    },
+
+    {
+      "img":"huazhuang/4.jpg",
+      "des":"洗面奶"
+    },
+
+    {
+      "img":"huazhuang/5.jpg",
+      "des":"洗面奶"
+    } ,
+    {
+      "img":"huazhuang/6.jpg",
+      "des":"洗面奶"
+    },
+    {
+      "img":"huazhuang/a1.jpg",
+      "des":"洗面奶"
+    },{
+      "img":"huazhuang/a2.jpg",
+      "des":"洗面奶"
+    },{
+      "img":"huazhuang/a3.jpg",
+      "des":"洗面奶"
+    }
+  ]
+
+}

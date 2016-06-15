@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <title>我的尚街</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/myJd.css"/>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/myJd.js"></script>
+</head>
+<body>
+
+
+    <header class="jd_topBar">
+
+        <a href="#" class="icon_back"></a>
+
+       <h2>我的尚街</h2>
+
+        <a href="#" class="icon_menu"></a>
+    </header>
+
+    <ul id="m_common_header_shortcut" class="jd-header-shortcut">
+        <li id="m_common_header_shortcut_m_index">
+            <a class="J_ping" href="./index.html">
+                <span class="shortcut-home"></span>
+                <strong>首页</strong>
+            </a>
+        </li>
+        <li class="J_ping">
+            <a href="./category.html" >
+                <span class="shortcut-categories"></span>
+                <strong>分类搜索</strong>
+            </a>
+        </li>
+        <li class="J_ping">
+            <a href="./cart.html" id="html5_cart">
+                <span class="shortcut-cart"></span>
+                <strong>购物车</strong>
+            </a>
+        </li>
+        <li id="m_common_header_shortcut_h_home" class=" current">
+            <a class="J_ping"  href="./myJd.html">
+                <span class="shortcut-my-account"></span>
+                <strong>我的尚街</strong>
+            </a>
+        </li>
+    </ul>
+
+
+    <script>
+        $(document).ready(function () {
+            var box1 = $('#m_common_header_shortcut');
+            $('.icon_menu').on('click', function () {
+                if(box1[0].style.display =='none')
+                    {box1.css({'display':'table'});}
+                else {
+                    {box1.css({'display':'none'});}
+                }
+            });
+        });
+
+
+    </script>
+    <div class="common-wrapper">
+
+        <div class="head-img">
+            <span class="my-img" style="background-image:url('image2/my.jpg')"></span>
+            <p>李大耳朵</p>
+            <p>注册会员</p>
+        </div>
+
+        <ul class="padding-list current-half-width">
+            <li>
+                <a id="wait4Payment" href="/user/wait4Payment.action?sid=08c8ad9eed02eda4f49115e3e4fc7fdc">
+                    <p id="wait4PaymentSum">0</p>
+                    <p>待付款</p>
+                </a>
+            </li>
+            <li>
+                <a id="wait4Delivery" href="/user/wait4Delivery.action?sid=08c8ad9eed02eda4f49115e3e4fc7fdc">
+                    <p id="wait4DeliverySum">0</p>
+                    <p>待收货</p>
+                </a>
+            </li>
+            <!--
+            <li>
+                <a id="myMessage" href="/myJd/message/list.action?sid=08c8ad9eed02eda4f49115e3e4fc7fdc">
+                    <p>
+                        <span id="infoCount">&nbsp;&nbsp;</span>
+                        <span id="unread-msg-point"></span>
+                    </p>
+                    <p>我的消息</p>
+                </a>
+            </li>
+-->
+        </ul>
+
+        <ul class="menu-list">
+            <li>
+                <a id="quanbudingdan" href="#">
+                    <img src="./image2/dingdan.png" alt="">
+                    <p>全部订单</p>
+                </a>
+            </li>
+
+            <li>
+                <a id="wodeqianbao" href="#">
+                    <img src="./image2/qianbao.png" alt="">
+                    <p>我的钱包</p>
+                </a>
+            </li>
+
+            <li>
+                <a id="liulanjilu" href="#">
+                    <img src="./image2/jilu.png" alt="">
+                    <p>浏览记录</p>
+                </a>
+            </li>
+
+            <li>
+                <a id="wodeguanzhu" href="#">
+                    <img src="./image2/guanzhu.png" alt="">
+                    <p>我的关注</p>
+                </a>
+            </li>
+
+            <li>
+                <a id="fuwuguanjia" href="#">
+                    <img src="./image2/guanjia.png" alt="">
+                    <p>服务管家</p>
+                </a>
+            </li>
+
+            <li>
+                <a id="zhanghuguanli" href="#">
+                    <img src="./image2/guanli.png" alt="">
+                    <p>账户管理</p>
+                </a>
+            </li>
+
+            <li>
+                <a id="wodeyuyue" href="#">
+                    <img src="./image2/yuyue.png" alt="">
+                    <p>我的预约</p>
+                </a>
+            </li>
+
+            <li>
+                <a id="yingyongtuijian" href="#">
+                    <img src="./image2/app.png" alt="">
+                    <p>应用推荐</p>
+                </a>
+            </li>
+
+        </ul>
+
+        <!--618VIP入口-->
+        <ul class="couponIn-list">
+            <li>
+                <a id="jingdonghuiyuan" href="#">
+                    <div class="couponIn-item">
+                        <div class="couponIn-icon"><img src="./image2/zhuanshi.png"></div>
+                        <div class="couponIn-item-info">
+                            <span class="info-title">尚街会员</span>
+                            <span class="info-hint"></span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a id="jingdongfuka" href="#">
+                    <div class="couponIn-item">
+                        <div class="couponIn-icon"><img src="./image2/fu.png"></div>
+                        <div class="couponIn-item-info">
+                            <span class="info-title">尚街福卡</span>
+                            <span class="info-hint"></span>
+
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a id="wodebigouma" href="#">
+                    <div class="couponIn-item">
+                        <div class="couponIn-icon"><img src="./image2/ka.png"></div>
+                        <div class="couponIn-item-info">
+                            <span class="info-title">我的必购码</span>
+                            <span class="info-hint"></span>
+
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+
+        <h2 class="list-title">猜你喜欢</h2>
+        <div id="guessing" class="jd-slider-wrapper">
+            <div class="jd-slider-container" style="width: 880px; height: 268px;">
+                <ul class="tj-list jd-slider-list">
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods1.jpg">
+                            <p>蓝月亮 深层洁净洗衣液（薰衣草）1kg/瓶</p>
+                            <p class="price">
+                                ￥19.9
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+                            <img src="./image2/goods2.jpg">
+                            <p>维达 抽纸 超韧3层130抽面巾纸*6包(小规格)</p>
+                            <p class="price">
+                                ￥14.9
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+                            <img src="./image2/goods3.jpg">
+                            <p>蓝月亮 深层洁净护理洗衣液(薰衣草) 500g/袋</p>
+                            <p class="price">
+                                ￥8.9
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods4.jpg">
+                            <p>飞科(FLYCO)FS372全身水洗电动剃须刀刮胡须刀</p>
+                            <p class="price">
+                                ￥89.0
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods5.jpg">
+                            <p>友臣 肉松饼 2500克 整箱装(新老包装随机发放中)</p>
+                            <p class="price">
+                                ￥75.0
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods6.jpg">
+                            <p>维达 抽纸 倍韧2层200抽面巾纸*3包(小规格)</p>
+                            <p class="price">
+                                ￥7.9
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods7.jpg">
+                            <p>洁柔（C&amp;S） 抽纸金尊纯韧系列3层130抽抽式面巾纸*6包(小规格)</p>
+                            <p class="price">
+                                ￥15.9
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods8.jpg">
+                            <p>蓝月亮 亮白增艳洗衣液（薰衣草香）500g/袋 </p>
+                            <p class="price">
+                                ￥8.9
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+                            <img src="./image2/goods9.jpg">
+                            <p>维达 手帕纸 超韧系列4层纸巾10+2包(无香)</p>
+                            <p class="price">
+                                ￥5.9
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods10.jpg">
+                            <p>乐事无限薯片104克*3组合装（新老包装，随机发货）</p>
+                            <p class="price">
+                                ￥20.8
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods11.jpg">
+                            <p>妈妈壹选天然皂液（护色洗衣液)3kg</p>
+                            <p class="price">
+                                ￥59.9
+                            </p>
+                        </a>
+                    </li>
+                    <li class="jd-slider-item" style="width: 110px;">
+
+                        <a href="#">
+
+                            <img src="./image2/goods12.jpg">
+                            <p>维达 卫生纸 蓝色经典140g卷纸*10卷</p>
+                            <p class="price">
+                                ￥19.9
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!--底部-->
+
+    <div id="m_common_bottom" style="min-height:170px;">
+        <footer id="m_common_bottom_jd_footer" class="jd-footer">
+            <div class="jd-1px-line-up"></div>
+            <ul class="jd-footer-links">
+                    <li class=""><a class="J_ping"  href="#">李大耳朵</a></li>
+                    <li><a class="J_ping" href="#">退出</a></li>
+                    <li><a class="J_ping" href="#">反馈</a></li>
+                    <li><a class="J_ping" href="#top">回到顶部</a></li>
+            </ul>
+            <div class="jd-1px-line-up"></div>
+            <ul class="jd-footer-platforms">
+                <li id="m_common_bottom_apps" class="jd-footer-icon-apps J_ping"> <a class="J_ping  icon_app">客户端</a></li>
+                <li id="m_common_bottom_touchscreen" class="jd-footer-icon-touchscreen current"><a class="J_ping icon_phone">触屏版</a></li>
+                <li id="m_common_bottom_pc" class="jd-footer-icon-pc"><a class="J_ping icon_pc" >电脑版</a></li>
+            </ul>
+            <div class="jd-1px-line-up"></div>
+            <div class="jd-footer-copyright">Copyright © 2004-2016 尚街JD.com 版权所有 </div>
+        </footer></div>
+</body>
+</html>

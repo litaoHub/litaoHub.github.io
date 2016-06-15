@@ -1,0 +1,51 @@
+{
+  "titleimg":"nanzhuang/nantitle.jpg",
+  "title":"精品男装",
+  "category_product":[
+    {
+      "img":"nanzhuang/1.jpg",
+      "des":"夹克"
+    },
+
+    {
+      "img":"nanzhuang/2.jpg",
+      "des":"夹克"
+    },
+
+    {
+      "img":"nanzhuang/3.jpg",
+      "des":"夹克"
+    },
+
+    {
+      "img":"nanzhuang/4.jpg",
+      "des":"夹克"
+    },
+
+    {
+      "img":"nanzhuang/5.jpg",
+      "des":"夹克"
+    } ,
+    {
+      "img":"nanzhuang/6.jpg",
+      "des":"夹克"
+    } ,
+    {
+      "img":"nanzhuang/7.jpg",
+      "des":"夹克"
+    },
+    {
+      "img":"nanzhuang/1.jpg",
+      "des":"夹克"
+    },
+    {
+      "img":"nanzhuang/a2.jpg",
+      "des":"夹克"
+    },
+    {
+      "img":"nanzhuang/a3.jpg",
+      "des":"夹克"
+    }
+  ]
+
+}

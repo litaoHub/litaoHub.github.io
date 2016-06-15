@@ -1,0 +1,213 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.jd_topBar {
+
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+    height: 44px;
+    border-bottom: 1px solid #e0e0e0;
+    background: url("../images/header-bg.png") repeat-x;
+    background-size: 1px 44px;
+    position: relative;
+}
+
+.jd_topBar > a {
+
+    width: 40px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    padding: 12px 10px;
+    background-clip: content-box;
+    background-origin: content-box;
+    left: 0;
+    background-position: -20px 0;
+
+}
+
+.jd_topBar > h2 {
+
+    height: 44px;
+    line-height: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+.common-wrapper {
+
+    width: 100%;
+    position: relative;
+    max-width: 640px;
+    min-width: 320px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-bottom: 20px
+}
+
+.common-wrapper .main {
+    margin:20px 15px 0;
+}
+
+.main .item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    /*padding-left : 15px;*/
+}
+
+.main .item .err-msg {
+    font-size: 13px;
+    color: #f25454;
+}
+
+
+.main .item .txt-input {
+    width: 100%;
+    height: 44px;
+    line-height: normal;
+    padding: 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    background: #fff;
+    font-family: 'MicroSoft YaHei';
+    font-size: 16px;
+    color: #252525;
+    -webkit-appearance: none;
+}
+
+.main .item .txt-captcha,
+.main .item .txt-password,
+.main .item .txt-username {
+    padding-left: 15px;
+}
+
+.main .item, .main .item-captcha .input-info {
+    margin-bottom: 10px;
+}
+
+.main .item-password .tp-btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 51px;
+    height: 35px;
+}
+
+.main .item-password .btn-off {
+    background: url('../images/anniu1.png') no-repeat;
+    background-size: 51px 35px;
+}
+
+.main .item-captcha #captcha-img {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    width: 79px;
+    height: 25px;
+    padding-left: 7px;
+    border-left: 1px solid #d7d7d7;
+}
+
+
+.main .item-captcha .login-free {
+    position: relative;
+    height: 18px;
+    padding-left: 26px;
+    line-height: 18px;
+    font-size: 13px;
+    color: #848689;
+}
+.main .item-captcha .login-free b {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+}
+.main .item-captcha .login-free-selected b {
+    background: url('../image2/duihao1.png') no-repeat;
+    background-size: 18px 18px;
+}
+
+.main .item-btns .btn-login, .main .item-btns .btn-next {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #f25454;
+    line-height: 39px;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+}
+
+.main .item-btns .btn-disabled {
+    background: #e2e2e2;
+    cursor: default;
+    color: #bdbdbd;
+}
+
+.main .item-login-option {
+    padding-top: 20px;
+    margin-bottom: 44px;
+    font-size: 14px;
+}
+
+.main .item-login-option .register-free {
+    float: left;
+    width: 50%;
+}
+
+.main .item-login-option .retrieve-password {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.main .item-login-option .register-free a,
+.main .item-login-option .retrieve-password a {
+    color: #686868;
+    font-size: 17px;
+    border-bottom: 1px solid #686868;
+    font-family: Microsoft-yahei;
+    height: 17px;
+    display: inline-block;
+}
+
+
+.main .item-login-other dt {
+    margin-bottom: 13px;
+    font-size: 14px;
+    color: #666;
+}
+
+.main .item-login-other dd .qq {
+    width: 25.17%;
+}
+.main .item-login-other dd a {
+    float: left;
+}
+
+.main .item-login-other dd .qq span {
+    width: 25px;
+    margin-left: 5px;
+}
+.main .item-login-other dd a span {
+    display: inline-block;
+    overflow: hidden;
+    height: 30px;
+    background: url('../image2/qq.png') no-repeat;
+    background-size: 285px 24px;
+    line-height: 100px;
+    text-indent: -9999px;
+}

@@ -1,0 +1,55 @@
+{
+  title: "热门分类",
+  catetory_product: [{
+    "phone": "手机"
+  }, {
+    "phone": "手机"
+  }, {
+    "phone": "手机"
+  }, {
+    "phone": "手机"
+  }, {
+    "phone": "手机"
+  }, ]
+}
+var obj = {
+logo: "img/c_06.jpg",
+title: [{ "hot": "热点导购" }, {
+"xindong": 心动连衣裙 "}],
+hot: [{
+"phone": "手机"
+}, {
+"phone": "手机"
+}, {
+"phone": "手机"
+}, {
+"phone": "手机"
+}, {
+"phone": "手机"
+}, ],
+xindong: {
+
+}
+};
+for (var i = 0; i < obj.title.length) {
+obj[obj.title[i]]
+} {
+tabs: [{
+category: { img: '', title: '', },
+{
+wuliu: { img: '', title: '', },
+
+]
+} {
+imgs: [{ "left-large": "" }, { right - samll: "" }, { left - small: "" }]
+}
+var a = sd;
+for (var i = o; i < a.length; i++) {
+var str = "";
+str += "<div><img class="
+'+a[i][]+'
+" src="
+'+a[]+'
+" alt="
+"></div>"
+}

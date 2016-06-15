@@ -1,0 +1,467 @@
+.jd_topBar {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+    height: 44px;
+    border-bottom: 1px solid #e0e0e0;
+    background: url("../images/header-bg.png") repeat-x;
+    background-size: 1px 44px;
+    position: relative;
+}
+
+.jd_topBar > a {
+
+    width: 40px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    padding: 12px 10px;
+    background-clip: content-box;
+    background-origin: content-box;
+
+
+}
+.jd_topBar > .icon_back {
+
+    left: 0;
+    background-position: -20px 0;
+}
+.jd_topBar > .icon_menu {
+
+    right: 0;
+    background-position: -60px 0;
+}
+
+.jd_topBar > h2 {
+
+    height: 44px;
+    line-height: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/*隐藏部分*/
+.jd-header-shortcut {
+
+    display: none;
+    width: 100%;
+    background: #404042;
+    height: 57px;
+
+}
+
+
+.jd-header-shortcut li {
+    padding-top: 6px ;
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+}
+.jd-header-shortcut li.current {
+    background: #2d2d2d;
+}
+
+.jd-header-shortcut a {
+    border: 0;
+    color: #fff;
+}
+.jd-header, .jd-header a {
+    font-family: "Microsoft-yahei";
+    color: #252525;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.jd-header-shortcut span {
+    background:url("../images/sprites.png") no-repeat;
+    background-size:200px,200px;
+}
+
+
+
+.jd-header-shortcut span {
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+}
+
+.jd-header-shortcut span, .jd-header-shortcut strong {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.jd-header-shortcut span.shortcut-home {
+    background-position: -30px -27px;
+}
+
+.jd-header-shortcut span.shortcut-categories {
+    background-position: -60px -27px;
+}
+
+.jd-header-shortcut span.shortcut-cart {
+    background-position: -90px -27px;
+}
+
+.jd-header-shortcut span.shortcut-my-account {
+    background-position: -120px -27px;
+}
+/*隐藏部分*/
+
+.common-wrapper {
+    width: 100%;
+    position: relative;
+    max-width: 640px;
+    min-width: 320px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    padding-bottom: 10px;
+}
+
+.head-img {
+    height: 7.18em;
+    width: 100%;
+    background: url('../image2/headbg.png');
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+}
+
+.head-img .my-img {
+    width: 3.8125em;
+    height: 3.8125em;
+    border-radius: 4em;
+    border: .125em solid #FFF;
+    box-shadow: inset 0 1px 8px rgba(0,0,0,0.2);
+    margin-top: .5em;
+    margin-bottom: .25em;
+    display: inline-block;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.head-img p {
+    font-size: .75em;
+    line-height: 1.5em;
+}
+
+.padding-list {
+    width: 100%;
+    overflow: hidden;
+    background-color: #FFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.current-half-width li {
+    width: 50% !important;
+}
+
+.padding-list li {
+    float: left;
+    height: 3em;
+    vertical-align: middle;
+    box-shadow: 1px 0 0 rgba(200,200,200,0.6);
+    text-align: center;
+    display: table;
+    position: relative;
+}
+
+.padding-list li a {
+    color: #a5a5a5;
+    font-size: .8125em;
+    text-decoration: none;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.padding-list li p:first-child {
+    color: #686868;
+}
+.padding-list li p {
+    line-height: 1.3em;
+    color: #848689;
+}
+
+
+.menu-list {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #FFF;
+    padding: .46875em .46875em;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.menu-list li {
+    float: left;
+    width: 25%;
+    padding: .46875em .46875em;
+    text-align: center;
+}
+
+.menu-list li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.menu-list li a img {
+    width: 2.5em;
+    height: 2.5em;
+    display: block;
+    margin: 0 auto .75em;
+}
+
+.menu-list li p {
+    font-size: .75em;
+    color: #6a6a6a;
+    text-align: center;
+    line-height: 1.35em;
+}
+
+.couponIn-list {
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.couponIn-list li {
+    list-style-type: none;
+}
+
+.couponIn-list .couponIn-item {
+    height: 2.813em;
+    padding: 0 0 0 15px;
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    vertical-align: middle;
+}
+
+.couponIn-item .couponIn-icon {
+    float: left;
+    width: 1.125em;
+    height: 1em;
+    display: table-cell;
+    margin-top: .938em;
+    margin-right: -4px;
+}
+
+.couponIn-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.couponIn-item .couponIn-item-info {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: solid 1px #dedede;
+    width: 90%;
+}
+
+.couponIn-item-info .info-title {
+    font-size: .75em;
+    color: #686868;
+}
+
+.couponIn-item-info .info-hint {
+    font-size: .625em;
+    color: #a0a0a0;
+    float: right;
+    margin-right: 10px;
+}
+
+.couponIn-item-info .info-hint::after {
+    content: '';
+    background: url('../image2/leftArrow.png') 0 0 no-repeat;
+    width: 9px;
+    height: 15px;
+    display: inline-block;
+    background-size: 9px 15px;
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+}
+
+.list-title {
+    margin-top: 10px;
+    color: #6a6a6a;
+    padding-left: 15px;
+    font-size: .8125em;
+    height: 2.384615em;
+    line-height: 2.384615em;
+    vertical-align: middle;
+    background-color: #FFF;
+}
+
+.jd-slider-wrapper {
+    overflow: hidden;
+}
+
+.tj-list {
+    width: 100%;
+    background-color: #FFF;
+    border-bottom: 1px solid #dcdcdc;
+    overflow: hidden;
+    padding: 0;
+}
+
+.tj-list li {
+    float: left;
+
+    text-align: center;
+    padding: 0 0 7px 0;
+}
+
+.tj-list li a {
+    color: #6a6a6a;
+    text-decoration: none;
+    font-size: .6875em;
+    display: block;
+}
+
+.tj-list li img {
+    width: 7em;
+    height: 7em;
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
+    padding: 1px;
+}
+
+.tj-list li p {
+    width: 7em;
+    margin: 0 auto 0;
+    line-height: 1.2em;
+    height: 2.4em;
+    overflow: hidden;
+    text-align: left;
+    color: #848689;
+}
+
+.tj-list li .price {
+    color: #f15353;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-align: center;
+    height: 1.2em;
+}
+
+
+/*底部*/
+.jd-footer {
+    background: #f8f8f8;
+    color: #848689;
+    text-align: center;
+    font-size: 12px;
+}
+
+.jd-1px-line-up {
+    height: 0px;
+    border-top: 1px solid #bfbfbf;
+    border-width: 1px 0 0 0;
+    border-image: url('../image2/row.gif') 2 0 round;
+}
+
+.jd-footer-links {
+    width: 320px;
+    margin: 0 auto;
+    display: table;
+    height: 13px;
+    padding: 18px 0;
+}
+.jd-footer-links li {
+    display: table-cell;
+    width: 69px;
+    height: 13px;
+    line-height: 13px;
+    font-size: 13px;
+}
+.jd-footer-links li:first-child,
+.jd-footer-links li:nth-child(2)
+ {
+    border-right: 1px solid #d7d7d7;
+}
+.jd-footer-links li:last-child {
+    border-left: 1px solid #d7d7d7;
+}
+
+.jd-footer-links li:first-child, .jd-footer-links li:last-child {
+    width: 90px;
+}
+
+.jd-footer-links a {
+    display: inline-block;
+    width: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.1em;
+}
+
+.jd-footer-platforms {
+    height: 69px;
+    width: 320px;
+    margin: 0 auto;
+    display: table;
+}
+
+.jd-footer-platforms li {
+    display: table-cell;
+}
+
+.jd-footer-platforms li a {
+    display: block;
+    width: 45px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #848689;
+    text-decoration: none;
+    position: relative;
+}
+
+.jd-footer-platforms li a:before {
+    content: "";
+    display: block;
+    height: 38px;
+    width: 33px;
+    margin: 9px auto 0;
+    background-position: 0 -70px;
+    opacity: 0.6;
+    background:url("../images/sprites.png") no-repeat;
+    background-size:200px,200px;
+}
+
+.jd-footer-platforms li.jd-footer-icon-apps a:before {
+    background-position: -120px -70px;
+}
+
+.jd-footer-platforms li.jd-footer-icon-touchscreen a:before {
+    background-position: -40px -70px;
+}
+.jd-footer-platforms li.current a:before {
+    opacity: 1;
+}
+
+.jd-footer-platforms li.jd-footer-icon-pc a:before {
+    background-position: -80px -70px;
+}
+
+
+
+.jd-footer-copyright {
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #848689;
+    font-size: 12px;
+}
