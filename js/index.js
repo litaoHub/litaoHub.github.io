@@ -100,7 +100,7 @@ function banner() {
 
 
     //imageBox.addEventListener('webkitTransitionEnd', function ()
-    itcast.transitionEnd(imageBox, function () {
+   litao.transitionEnd(imageBox, function () {
 
             if(index >= 9)
             {

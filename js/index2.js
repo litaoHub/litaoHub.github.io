@@ -98,7 +98,7 @@ function banner1(target) {
 
 
     //imageBox1.addEventListener('webkitTransitionEnd', function ()
-    itcast.transitionEnd(imageBox1, function () {
+    litao.transitionEnd(imageBox1, function () {
 
         if(index1 >= 3)
         {

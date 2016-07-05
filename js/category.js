@@ -86,7 +86,7 @@ function leftSwipe() {
 
     var lis = document.querySelectorAll('li');
 
-    itcast.tap(childDom,function (e) {
+    litao.tap(childDom,function (e) {
 
         var li = e.target.parentNode;
         for(var i=0;i<lis.length;i++) {
@@ -111,7 +111,7 @@ function leftSwipe() {
 
 
 function swipeRight(){
-    itcast.iScroll({
+    litao.iScroll({
         swipeDom:document.querySelector('.jd_category_right'),
         swipeType:'y',
         swipeDistance:50
