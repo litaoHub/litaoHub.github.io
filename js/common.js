@@ -30,7 +30,7 @@ litao.tap = function (obj,callback) {
         obj.addEventListener('touchstart', function (e) {
             time = Date.now();
         });
-        obj.addEventListener(function (e) {
+        obj.addEventListener('touchmove',function (e) {
             isMove = ture;
         });
         window.addEventListener('touchend', function (e) {
